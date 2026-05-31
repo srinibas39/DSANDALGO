@@ -18,9 +18,23 @@
 | Find missing number | use xor |
 | Union of two sorted arrays | use two pointers , one point to each array and one point to the result array. |
 | Intersection of two sorted arrays | use two pointers , in equal case add to result , otherwise inc pointers |
+
+# Medium Problems
+
+| Problem | Approach |
+|---------|----------|
 | Majority Element - 1 | use hashmap or moore's voting algorithm |
 | Leader in an array | use max variable and iterate from the end |
 | Rearrange array elements by sign | two pointers , use posIdx and negIdx |
 | Print the matrix in spiral manner| 4 boundaries , top = 0;  left = 0 , right = n - 1 , bottom = m - 1; |
+| Pascal's Triangle -1 (calculate row and column) | use the formula n - i / i + 1 --> Example: 4 * 3 / 1 * 2|
+| Pascal's Triangle -2 (Calculate entire row ) | prev * (r - i) / (i) |
+| Pascal's Triangle -3 (print the entire triangle) | similar to pascal's triangle -2 but print the entire row |
+| Rotate matrix by 90 degrees | Tranpose and reverse each row |
+| Two Sum | eleIndex + sort + two pointers |
+| 3 Sum | Similar approach as two sum but with three pointers |
+| 4 sum | Exactly same as 3 sum but with four pointers |
+
+
 
 
