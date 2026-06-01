@@ -34,6 +34,7 @@
 | Two Sum | eleIndex + sort + two pointers |
 | 3 Sum | Similar approach as two sum but with three pointers |
 | 4 sum | Exactly same as 3 sum but with four pointers |
+| Sort array of 0s, 1s and 2s | Dutch National Flag Algorithm |
 
 
 
