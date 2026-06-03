@@ -37,3 +37,11 @@
 | 12 | Sort array of 0s, 1s and 2s | Dutch National Flag Algorithm | O(n) | O(1) |
 | 13 | Kadane's Algorithm | 1 pointers , sum , msf , if sum < 0 then reset sum, follow up question could to return the subarray , when sum == 0 , then start = i | O(n) | O(1) |
 | 14 | Next Permutation | find the dip element from the end , swap it with the next greater element , reverse the rest of the array , if dip is not found then reverse the entire array | O(n) | O(1) |
+
+# Hard Problems
+
+| S.No | Problem | Approach | Time Complexity | Space Complexity |
+|------|---------|----------|-----------------|------------------|
+| 1 | Majority Element-II | 2 pointers and moore's voting algorithm  | O(n) | O(1) |
+
+
