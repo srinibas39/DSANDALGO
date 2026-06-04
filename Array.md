@@ -43,5 +43,8 @@
 | S.No | Problem | Approach | Time Complexity | Space Complexity |
 |------|---------|----------|-----------------|------------------|
 | 1 | Majority Element-II | 2 pointers and moore's voting algorithm  | O(n) | O(1) |
+2 | Find the repeating and missing number | xor everything + find the rightmost set bit + based on rsb separte it into groups | O(n) | O(1) |
+3 | Count Inversions | use merge sort algo to count the inversions | O(n log n) | O(n) |
+4 | Reverse Pairs | use merge sort , count pairs(for loop low to mid ) | O(n log n) | O(n) |
 
 
